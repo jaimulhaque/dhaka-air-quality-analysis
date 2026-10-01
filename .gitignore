@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Large raw data (do not upload to GitHub)
+data/raw/*.csv
+data/raw/*.xlsx
+data/
+.ipynb_checkpoints/
