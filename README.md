@@ -122,4 +122,4 @@ Download the datasets into `data/raw/` and run the notebooks in order (01 → 04
 Python (pandas, NumPy, matplotlib, seaborn, scikit-learn), Jupyter, Power BI / Tableau
 
 ## Author
-<Your Name> | <LinkedIn link>
+<Jaimul Haque> | <https://www.linkedin.com/in/jaimul-haque-317b07374/>
