@@ -50,6 +50,20 @@ Which months and times of day have the worst air quality in Dhaka, how does weat
 - Mean PM2.5 is 21.2 µg/m³ in rainy hours vs. 55.7 µg/m³ in dry hours (~62% lower).
 - The temperature relationship is largely a seasonal effect. These are correlations, not causal effects.
 
+**Seasonal correlations (Spearman, with PM2.5)**
+
+| Season | Wind | Temperature | Precipitation | Humidity |
+|---|---|---|---|---|
+| Winter | -0.26 | -0.34 | -0.08 | 0.25 |
+| Summer | -0.37 | -0.18 | -0.28 | -0.26 |
+| Monsoon | -0.60 | 0.16 | -0.24 | 0.01 |
+| Post-monsoon | -0.27 | -0.40 | -0.41 | 0.02 |
+
+- Wind speed is negatively correlated with PM2.5 in every season, strongest in the monsoon (-0.60), making it the most consistent weather factor.
+- Within-season temperature correlations are weaker than the overall -0.48 and change sign in the monsoon, confirming that much of the overall temperature effect is seasonal.
+- Precipitation matters most in the post-monsoon season (-0.41) and little in winter (-0.08, the dry season).
+- Humidity has no consistent direction (positive in winter, negative in summer).
+
 **Forecasting (test: Dec 2024 - Nov 2025, 358 days)**
 
 | Model | MAE | RMSE | R² |
