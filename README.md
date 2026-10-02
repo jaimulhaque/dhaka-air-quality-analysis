@@ -1,3 +1,10 @@
+## Data Quality Notes
+- Records before 2022-08-04 show synthetic-looking patterns (constant monthly
+  levels, linear yearly growth, unit change in CO) and were excluded.
+- The "Azimpur" series is identical to "Dhaka" in the overlap period and was not used.
+- AQI was recomputed from PM2.5 using the US EPA (2024) breakpoints.
+- Remaining data appear to be modeled estimates, not ground sensor readings.
+
 # Dhaka Air Quality Analysis
 
 Analyzing air pollution (PM2.5 / AQI) trends in Dhaka by month, season and hour of day, and exploring how weather affects pollution levels.
